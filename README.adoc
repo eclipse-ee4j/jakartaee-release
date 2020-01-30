@@ -1,0 +1,4 @@
+= Jakarta EE Release
+
+This Jakarta EE Release repository will be used to help manage the various Jakarta EE releases.
+No deliverable code will be housed in this repository -- only Issues, PRs, Tools, etc in support of delivering a Jakarta EE release.
