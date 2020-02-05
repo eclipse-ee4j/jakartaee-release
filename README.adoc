@@ -2,3 +2,21 @@
 
 This Jakarta EE Release repository will be used to help manage the various Jakarta EE releases.
 No deliverable code will be housed in this repository -- only Issues, PRs, Tools, etc in support of delivering a Jakarta EE release.
+
+== EE4J Tools
+
+A set of scripts simplifying work with EE4J project.
+
+=== batch-create-issues
+
+Creates issues in multiple EE4J repositories based on provided template.
+Anybody can create issues, but you will need to be a committer to modify the issue after it's been created (ie. labels, milestones, etc).
+
+Usage:
+
+- Modify `repos` list in `create_issues.sh` with names of repositories you want to create an issue in
+- Put your issue text in `issue.md` file.
+- The Title of the issue is generated via the `create_issues.sh` script.
+An alternative is to include the Title as the first line in the `issue.md` file.
+An empty line after that first Title line is required.
+- Run `create_issues.sh`
